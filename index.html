@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashaswini Uddavolu | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #4f46e5;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-gray-800 p-4 fixed w-full top-0 z-50 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Yashaswini</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-400">About</a>
+        <a href="#skills" class="hover:text-indigo-400">Skills</a>
+        <a href="#projects" class="hover:text-indigo-400">Projects</a>
+        <a href="#contact" class="hover:text-indigo-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center px-4" id="home">
+    <div class="mt-20 flex flex-col md:flex-row items-center gap-12">
+      <div class="order-2 md:order-1 text-center md:text-left">
+        <h2 class="text-4xl font-bold mb-4">Hi, I'm Yashaswini Uddavolu</h2>
+        <p class="text-lg text-gray-300 mb-6">
+          B.Tech CSE Student at Sharda University | CGPA: 8.9 <br>
+          Aspiring Software Engineer | Python • Java • Web Developer
+        </p>
+        <a href="#contact" class="bg-indigo-600 px-6 py-2 rounded hover:bg-indigo-500 transition inline-block">Contact Me</a>
+      </div>
+      <div class="order-1 md:order-2">
+        <!-- Replace src with your actual image path -->
+        <img src="images/pic.jpg" alt="Yashaswini Uddavolu" class="profile-pic">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-800">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-300 leading-relaxed">
+        I'm currently pursuing my B.Tech in Computer Science and Engineering at Sharda University (Delhi NCR).<br>
+        I'm passionate about problem-solving, web development, and using technology to solve real-world problems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-10">Technical Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center text-gray-300">
+        <div class="bg-gray-800 p-4 rounded">Python</div>
+        <div class="bg-gray-800 p-4 rounded">C </div>
+        <div class="bg-gray-800 p-4 rounded">Java</div>
+        <div class="bg-gray-800 p-4 rounded">HTML / CSS / JavaScript</div>
+        <div class="bg-gray-800 p-4 rounded">SQL / DBMS</div>
+        <div class="bg-gray-800 p-4 rounded">ReactJS (Basics)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-900 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Tetris Game</h3>
+          <p class="text-gray-400">Built a custom version of the Tetris game in Python. Worked in a team of two during 2nd semester.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Safety Handheld Device</h3>
+          <p class="text-gray-400">Designed a mouse-like device for women's safety in Smart India Hackathon. Authored a review paper on it.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Event Management System</h3>
+          <p class="text-gray-400">Currently working on a platform to manage and register for university programs and events.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Code Editor</h3>
+          <p class="text-gray-400">Still working on it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+      <p class="text-gray-300 mb-6">I'm open to opportunities and collaborations. Let's connect!</p>
+      <div class="space-x-4">
+        <a href="mailto:yashaswiniuddavvolu@gmail.com" class="bg-indigo-600 px-5 py-2 rounded hover:bg-indigo-500 transition">Email</a>
+        <a href="https://www.linkedin.com/in/yashaswini-u-1746abc/" target="_blank" class="bg-blue-500 px-5 py-2 rounded hover:bg-blue-400 transition">LinkedIn</a>
+        <a href="https://github.com/yashu1746/yashaswiniuddavolu" target="_blank" class="bg-gray-700 px-5 py-2 rounded hover:bg-gray-600 transition">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-500 text-sm">
+    © 2025 Yashaswini Uddavolu. All rights reserved.
+  </footer>
+
+</body>
+</html>
